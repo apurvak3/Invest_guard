@@ -1,0 +1,15 @@
+flask
+streamlit
+requests
+sqlalchemy
+transformers
+spacy
+scikit-learn
+cryptography
+pandas
+numpy
+beautifulsoup4
+yfinance  # Added
+torch
+gunicorn
+matplotlib
