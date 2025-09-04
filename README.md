@@ -325,19 +325,43 @@ BSE_API_KEY=your_bse_key
 
 ### 🎯 Usage Examples
 
-```python
-# Fraud Detection API Usage
-import requests
+**Fraud Detection API Usage:**
+```javascript
+// Example: Analyze suspicious investment content
+const analyzeContent = async (content, platform) => {
+  const response = await fetch('/api/analyze-fraud', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      content: content,
+      platform: platform, // 'twitter', 'telegram', 'reddit'
+      language: 'en'
+    })
+  });
+  
+  const result = await response.json();
+  return {
+    fraudScore: result.fraud_score,     // 0-1 (higher = more suspicious)
+    riskLevel: result.risk_level,       // 'low', 'medium', 'high'
+    flaggedKeywords: result.keywords,   // Array of suspicious terms
+    recommendation: result.advice       // Safety advice for user
+  };
+};
 
-# Analyze suspicious content
-response = requests.post('https://api.investorguard.com/detect', {
-    'content': 'Get rich quick! 1000% returns guaranteed!',
-    'source': 'social_media',
-    'language': 'en'
-})
-
-fraud_score = response.json()['fraud_score']  # 0.95 (high risk)
+// Example usage
+const analysis = await analyzeContent(
+  "Guaranteed 1000% returns! Join our exclusive group now!",
+  "telegram"
+);
+console.log(`Fraud Score: ${analysis.fraudScore}`); // 0.95 (high risk)
 ```
+
+**Live Demo Features:**
+1. **Test Fraud Detection**: Enter suspicious investment advice
+2. **Multi-platform Analysis**: Test content from Twitter, Telegram, Reddit
+3. **Real-time Results**: Get instant fraud risk scores
+4. **Educational Content**: Learn about different types of investment fraud
+5. **Trading Simulator**: Practice with virtual ₹1,00,000 portfolio
 
 ---
 
