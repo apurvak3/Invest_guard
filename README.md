@@ -227,19 +227,6 @@ pie title Market Opportunity
 | 🏢 Market Ecosystem | 30M+ participants | Literacy tools | ₹200 Cr |
 | 🌍 Global Expansion | Africa, SEA | Plug-and-play scalability | ₹1000+ Cr |
 
-### 📊 Adoption Funnel
-
-```mermaid
-funnel
-    title User Acquisition Funnel
-    "Awareness (Ads + Social Media)" : 1000000
-    "Onboarding (Simple App Signup)" : 500000
-    "Engagement (Tutorials + Alerts)" : 250000
-    "Trust (Verified Advisors)" : 125000
-    "Retention (Gamified Simulator)" : 62500
-```
-
----
 
 ## 🏃‍♂️ Quick Start
 
