@@ -315,11 +315,14 @@ BSE_API_KEY=your_bse_key
 ### 📸 Screenshots
 
 <details>
-<summary>📱 Click to view app screenshots</summary>
+<div align="center">
+  <img src="static/fraud-detection-dashboard.png" alt="Image Upload 1" width="400">
+  <img src="static/interactive-learning.png" alt="Image Upload 2" width="400">
+  <img src="static/virtual-trading-simulator.png" alt="Image Upload 3" width="400">
+  <img src="static/portfolio-performance.png" alt="Image Upload 4" width="400">
+</div>
 
-| Mobile App | Web Dashboard | Fraud Detection |
-|:---:|:---:|:---:|
-| ![Mobile](https://via.placeholder.com/200x350/4285F4/white?text=Mobile+App) | ![Web](https://via.placeholder.com/300x200/34A853/white?text=Web+Dashboard) | ![Detection](https://via.placeholder.com/300x200/EA4335/white?text=Fraud+Detection) |
+
 
 </details>
 
