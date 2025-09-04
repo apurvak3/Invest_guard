@@ -4,7 +4,7 @@ apurvak3/InvestorGuard
 
 <div align="center">
 
-![InvestorGuard Logo](https://github.com/user-attachments/assets/investorguard-logo.png)
+![InvestorGuard Logo](https://github.com/user-attachments/static/investorguard-logo.png)
 
 **Made with ❤️ for Indian Investors – Powered by AI & Blockchain**
 
